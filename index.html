@@ -14,38 +14,39 @@
     <title>Lucas Laricchia - FullStack</title>
   </head>
   <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Hello</a>
+            </li>
+            <li>
+              <a href="#service" class="nav__link">Services</a>
+            </li>
+            <li>
+              <a href="#resume" class="nav__link">Resume</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-fill"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
+    </header>
     <!-- Main -->
     <main class="main">
-      <!-- Header -->
-      <header class="header" id="header">
-        <nav class="nav container">
-          <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-              <li>
-                <a href="#home" class="nav__link active-link">Hello</a>
-              </li>
-              <li>
-                <a href="#service" class="nav__link">Services</a>
-              </li>
-              <li>
-                <a href="#resume" class="nav__link">Resume</a>
-              </li>
-              <li>
-                <a href="#portfolio" class="nav__link">Portfolio</a>
-              </li>
-              <li>
-                <a href="#contact" class="nav__link">Contact</a>
-              </li>
-            </ul>
-            <div class="nav__close" id="nav-close">
-              <i class="ri-close-fill"></i>
-            </div>
-          </div>
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-menu-fill"></i>
-          </div>
-        </nav>
-      </header>
+
       <!-- Home -->
       <section class="home" id="home">
         <div class="home__container container grid">
@@ -100,7 +101,7 @@
       <!-- Hello -->
       <section class="hello section container">
         <h2 class="section__title">Hi_</h2>
-        <p class="hello_details text-lg">
+        <p class="hello__details text-lg">
           I am a Junior Web Developer able to build a Web Presence from the
           ground up - from concept, navigation, layout and programming to UX and
           SEO. Skilled at writing well-designed, testable and efficient code
